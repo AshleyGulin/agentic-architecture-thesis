@@ -1,0 +1,67 @@
+name: Research framing
+description: Refine a research question, claim, scope, or contribution without hiding uncertainty.
+title: "[Framing] "
+labels:
+  - "type:framing"
+  - "knowledge:hypothesis"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for provisional wording and scope work. Major reframing requires student approval.
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain why the framing needs attention now.
+    validations:
+      required: true
+  - type: textarea
+    id: related_ids
+    attributes:
+      label: Related question or claim
+      description: List stable IDs such as Q1 or C5 and link them where practical.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: Expected repository output
+      description: Name the Markdown file or files that will be created or updated.
+    validations:
+      required: true
+  - type: textarea
+    id: completion_evidence
+    attributes:
+      label: Completion evidence
+      description: State the reviewable artifact or comparison that will demonstrate completion.
+    validations:
+      required: true
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: Relevant links or sources
+      description: Link existing repository records and traceable sources; state when sources remain unverified.
+    validations:
+      required: true
+  - type: textarea
+    id: current_wording
+    attributes:
+      label: Current wording
+      description: Quote or link the present wording that may be revised.
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Uncertainty
+      description: Identify unsupported assumptions, ambiguous terms, or unresolved scope.
+    validations:
+      required: true
+  - type: textarea
+    id: revision_criterion
+    attributes:
+      label: Decision or revision criterion
+      description: Define what evidence or judgment would justify keeping, revising, or rejecting the wording.
+    validations:
+      required: true

@@ -1,0 +1,66 @@
+name: Writing or synthesis
+description: Draft or revise thesis writing against explicit claims, evidence, and review criteria.
+title: "[Writing] "
+labels:
+  - "type:writing"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for bounded writing work that preserves distinctions among hypotheses, evidence, and interpretation.
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain the argument or synthesis need this writing addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: related_ids
+    attributes:
+      label: Related question or claim
+      description: List stable IDs such as Q5 or C5 and link them where practical.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: Expected repository output
+      description: Name the Markdown file or files that will be created or updated.
+    validations:
+      required: true
+  - type: textarea
+    id: completion_evidence
+    attributes:
+      label: Completion evidence
+      description: State what reviewed text, cross-links, or resolved gaps will demonstrate completion.
+    validations:
+      required: true
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: Relevant links or sources
+      description: Link repository records and traceable sources; flag sources that remain unverified.
+    validations:
+      required: true
+  - type: textarea
+    id: target_section
+    attributes:
+      label: Target section
+      description: Identify the document heading, argument segment, or bounded synthesis target.
+    validations:
+      required: true
+  - type: textarea
+    id: supporting_material
+    attributes:
+      label: Supporting claims and evidence
+      description: List claim IDs, documented evidence, and unresolved gaps that the text must represent accurately.
+    validations:
+      required: true
+  - type: textarea
+    id: review_criterion
+    attributes:
+      label: Review criterion
+      description: Define the checks for coherence, evidence status, scope, and architectural relevance.
+    validations:
+      required: true

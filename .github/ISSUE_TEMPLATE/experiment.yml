@@ -1,0 +1,95 @@
+name: Experiment
+description: Plan a traceable study, simulation, or prototype test with explicit limits and safeguards.
+title: "[Experiment] "
+labels:
+  - "type:experiment"
+  - "knowledge:hypothesis"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form before collecting evidence. Do not claim results until method, provenance, and limitations are documented.
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain which research gap the experiment addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: related_ids
+    attributes:
+      label: Related question or claim
+      description: List stable question, claim, and experiment IDs where assigned.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: Expected repository output
+      description: Name the experiment record and other Markdown outputs to update.
+    validations:
+      required: true
+  - type: textarea
+    id: completion_evidence
+    attributes:
+      label: Completion evidence
+      description: Define the records, raw evidence, analysis, and limitations needed to close this issue.
+    validations:
+      required: true
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: Relevant links or sources
+      description: Link prior records, protocols, and sources; label unverified material.
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: State the proposition that could be supported, revised, limited, or rejected.
+    validations:
+      required: true
+  - type: textarea
+    id: variables
+    attributes:
+      label: Variables
+      description: Define independent, dependent, controlled, and confounding variables or explain why they do not apply.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Method
+      description: Describe the configuration, participants or simulated agents, procedure, and comparison conditions.
+    validations:
+      required: true
+  - type: textarea
+    id: measures
+    attributes:
+      label: Measures
+      description: Define observable measures, units or representations, and interpretation limits.
+    validations:
+      required: true
+  - type: textarea
+    id: ethics_privacy
+    attributes:
+      label: Ethics and privacy
+      description: Record consent, data minimization, privacy, safety, and governance requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: stopping_override
+    attributes:
+      label: Stopping and override conditions
+      description: State when the study or adaptive action must stop and how occupants or researchers can override it.
+    validations:
+      required: true
+  - type: input
+    id: raw_evidence_path
+    attributes:
+      label: Raw-evidence path
+      description: Give the governed storage location or state that it is pending ethics and data-governance approval.
+    validations:
+      required: true

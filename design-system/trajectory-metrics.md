@@ -1,0 +1,33 @@
+# Candidate Trajectory Metrics
+
+## Status and interpretation rule
+
+No metric, sensing method, sampling rate, coordinate system, threshold, or social interpretation has been selected or validated. These candidates operationalize parts of [Q2](../questions/question-tree.md#q2) and [C2](../claims-and-evidence/evidence-matrix.md#c2) for later comparison. A measured pattern does not by itself reveal intention, consent, comfort, identity, or social meaning.
+
+## Candidate indicators
+
+| Candidate indicator | Unit or representation | Interpretation limits | Sensing needs, not selected sensors | Related question or claim |
+| --- | --- | --- | --- | --- |
+| Path | Time-ordered 2D/3D coordinates, polyline, or occupancy sequence in a declared frame | Depends on coordinate frame, sampling, tracking continuity, route availability, and activity; similar paths can have different purposes. | Time-synchronized position estimates, spatial calibration, tracking-confidence and missing-data record. | [Q2](../questions/question-tree.md#q2), [C2](../claims-and-evidence/evidence-matrix.md#c2) |
+| Speed | Distance/time, with sampling interval and smoothing method | Slow or fast motion does not establish urgency, hesitation, comfort, ability, or intent. | Calibrated position over time, clock accuracy, noise characterization, and accessibility context where voluntarily provided. | [Q2](../questions/question-tree.md#q2), [C2](../claims-and-evidence/evidence-matrix.md#c2) |
+| Curvature | Inverse length, turning angle per distance, or segmented direction change | Sensitive to noise and scale; turning can arise from obstacles, gait, objects, social interaction, or exploration. | Sufficient spatial/temporal resolution, smoothing documented, and local geometry or obstacle map. | [Q2](../questions/question-tree.md#q2), [C2](../claims-and-evidence/evidence-matrix.md#c2) |
+| Clearance | Shortest distance to boundary, obstacle, route edge, or swept action zone | Small clearance may reflect constraint rather than preference; aggregate values can hide accessibility needs. | Registered boundary/obstacle geometry, position uncertainty, body or mobility-envelope assumptions explicitly bounded. | [Q2](../questions/question-tree.md#q2), [Q3](../questions/question-tree.md#q3); [C2](../claims-and-evidence/evidence-matrix.md#c2), [C3](../claims-and-evidence/evidence-matrix.md#c3) |
+| Distance | Distance to another person, boundary, object, or zone, named explicitly | Proximity is context-dependent and cannot establish relationship, comfort, attention, or territorial claim. | Consistent coordinate frame, declared reference target, uncertainty bounds, and consent for multi-person tracking. | [Q2](../questions/question-tree.md#q2), [C2](../claims-and-evidence/evidence-matrix.md#c2) |
+| Orientation | Body/head heading angle, orientation vector, or coarse directional bin | Orientation estimates may conflict with gaze, attention, intended movement, posture, or assistive-device use. | Approved orientation estimate, calibration, confidence, and clear statement of what body feature is represented. | [Q2](../questions/question-tree.md#q2), [C2](../claims-and-evidence/evidence-matrix.md#c2) |
+| Hesitation | Candidate event defined by speed/acceleration/orientation changes over a preregistered window | “Hesitation” is already interpretive; a pause or reversal can have many unrelated causes. | Movement time series, explicit event rule, uncertainty, contextual annotation, and participant report where appropriate. | [Q2](../questions/question-tree.md#q2), [Q4](../questions/question-tree.md#q4); [C2](../claims-and-evidence/evidence-matrix.md#c2), [C4](../claims-and-evidence/evidence-matrix.md#c4) |
+| Dwell | Duration within a declared zone or below a declared movement threshold | Dwell does not establish liking, attention, acceptance, ownership, or need. Zone and threshold choices shape the Result. | Calibrated zones, timestamps, threshold and missing-data rule, plus consented contextual record. | [Q2](../questions/question-tree.md#q2), [C2](../claims-and-evidence/evidence-matrix.md#c2) |
+| Route choice | Categorical route, sequence of zones, or deviation from a declared baseline | Requires genuine alternatives; route may be forced by layout, obstruction, habit, instruction, or tracking error. | Route network and alternatives, comparable start/end conditions, geometry state, and path assignment uncertainty. | [Q2](../questions/question-tree.md#q2), [Q5](../questions/question-tree.md#q5); [C2](../claims-and-evidence/evidence-matrix.md#c2), [C5](../claims-and-evidence/evidence-matrix.md#c5) |
+| Crossings | Count/timing of a declared line, threshold, zone boundary, or another path | Crossing frequency alone does not indicate connection, conflict, access quality, or negotiation. | Defined crossing geometry, time window, identity-minimized continuity where needed, and false-count audit. | [Q2](../questions/question-tree.md#q2), [Q5](../questions/question-tree.md#q5); [C2](../claims-and-evidence/evidence-matrix.md#c2), [C5](../claims-and-evidence/evidence-matrix.md#c5) |
+| Repeated avoidance | Recurrent detour, non-entry, reversal, or clearance pattern relative to a preregistered comparator | “Avoidance” is an Interpretation; repetition may reflect access constraints, routine, preference, activity, or error. | Repeated comparable opportunities, geometry state, uncertainty, alternative-route availability, and participant correction. | [Q2](../questions/question-tree.md#q2), [Q4](../questions/question-tree.md#q4); [C2](../claims-and-evidence/evidence-matrix.md#c2), [C4](../claims-and-evidence/evidence-matrix.md#c4) |
+
+## Measurement record requirements
+
+For any selected candidate, document definition, unit, coordinate frame, temporal window, sampling and smoothing, missing-data handling, uncertainty, calibration, consent, retention, relevant geometry state, comparison condition, counterexamples, and exclusions. Preserve raw Evidence separately from derived metric, Result, Interpretation, and Decision.
+
+## Selection and challenge criteria
+
+A metric should remain an Open question until it is observable with acceptable error, relevant to a spatial question, proportionate in privacy cost, robust to plausible counterexamples, and interpretable without claiming access to intent. Compare it against simpler measures and participant-reported accounts. A metric that cannot meet these criteria should be revised or removed rather than retained for technical novelty.
+
+## Next design study
+
+Define one example and at least one counterexample for each candidate using simulated or otherwise ethically approved data. This is a planned action, not a completed experiment or Evidence.

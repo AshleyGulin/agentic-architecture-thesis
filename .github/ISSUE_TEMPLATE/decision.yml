@@ -1,0 +1,74 @@
+name: Decision required
+description: Frame an explicit research or design decision with evidence and a reconsideration trigger.
+title: "[Decision] "
+labels:
+  - "type:decision"
+  - "agent:attention"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when student judgment is required. Do not record a major reframing as adopted before approval.
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain why a decision is required and why it matters now.
+    validations:
+      required: true
+  - type: textarea
+    id: related_ids
+    attributes:
+      label: Related question or claim
+      description: List stable IDs such as Q1 or C4 and link them where practical.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: Expected repository output
+      description: Name the Markdown file or decision-log entry that will record the outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: completion_evidence
+    attributes:
+      label: Completion evidence
+      description: State what approved decision record and linked updates will demonstrate completion.
+    validations:
+      required: true
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: Relevant links or sources
+      description: Link the records and traceable sources informing the choice; identify unverified material.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: List viable options, including deferral or a baseline where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: Describe spatial, methodological, ethical, and research-scope consequences for each option.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Summarize documented evidence and provenance, separating it from interpretation or preference.
+    validations:
+      required: true
+  - type: textarea
+    id: reconsideration_trigger
+    attributes:
+      label: Reconsideration trigger
+      description: Define what new evidence, failure, or constraint would reopen the decision.
+    validations:
+      required: true

@@ -1,0 +1,71 @@
+name: Reading or source review
+description: Verify and connect a source or search lead to the thesis inquiry.
+title: "[Reading] "
+labels:
+  - "type:reading"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for traceable source work. Do not present an unverified lead as evidence.
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain the research need this reading addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: related_ids
+    attributes:
+      label: Related question or claim
+      description: List stable IDs such as Q2 or C4 and link them where practical.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: Expected repository output
+      description: Name the Markdown file or files that will be created or updated.
+    validations:
+      required: true
+  - type: textarea
+    id: completion_evidence
+    attributes:
+      label: Completion evidence
+      description: State what repository content will demonstrate completion without assuming a finding.
+    validations:
+      required: true
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: Relevant links or sources
+      description: Add stable links when available; label unverified leads explicitly.
+    validations:
+      required: true
+  - type: textarea
+    id: citation_lead
+    attributes:
+      label: Citation or search lead
+      description: Provide the bibliographic lead, search query, author, title, or identifier to investigate.
+    validations:
+      required: true
+  - type: dropdown
+    id: verification_status
+    attributes:
+      label: Verification status
+      description: Record the source status at issue creation.
+      options:
+        - Unverified lead
+        - Located but not yet checked
+        - Verified against the original source
+    validations:
+      required: true
+  - type: input
+    id: reading_note_path
+    attributes:
+      label: Reading-note path
+      description: Give the intended Markdown path under research/reading-notes/.
+      placeholder: research/reading-notes/author-year-short-title.md
+    validations:
+      required: true

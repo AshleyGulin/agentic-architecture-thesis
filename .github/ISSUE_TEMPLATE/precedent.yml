@@ -1,0 +1,66 @@
+name: Precedent analysis
+description: Analyze a traceable architectural precedent and its limits for transfer.
+title: "[Precedent] "
+labels:
+  - "type:precedent"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to distinguish documented project facts from interpretation and transfer hypotheses.
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain what the precedent comparison should clarify.
+    validations:
+      required: true
+  - type: textarea
+    id: related_ids
+    attributes:
+      label: Related question or claim
+      description: List stable IDs such as Q3 or C3 and link them where practical.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: Expected repository output
+      description: Name the Markdown file or files that will be created or updated.
+    validations:
+      required: true
+  - type: textarea
+    id: completion_evidence
+    attributes:
+      label: Completion evidence
+      description: State what documented comparison will demonstrate completion.
+    validations:
+      required: true
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: Relevant links or sources
+      description: Add project and publication links with verification status.
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Project and source provenance
+      description: Identify the project, authors, date, location, and sources without filling gaps by inference.
+    validations:
+      required: true
+  - type: textarea
+    id: architectural_operation
+    attributes:
+      label: Architectural operation
+      description: Describe the spatial operation, sensing, action, and occupant relationship to investigate.
+    validations:
+      required: true
+  - type: textarea
+    id: transfer_risk
+    attributes:
+      label: Transfer risk
+      description: Explain what may not transfer to this thesis context and why.
+    validations:
+      required: true
