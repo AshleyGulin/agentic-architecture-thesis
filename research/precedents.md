@@ -1,40 +1,51 @@
 # Precedent Analysis
 
-## Current status
+## Status
 
-No precedent project facts or evaluations are documented. The categories below are search candidates, not evidence that a qualifying project exists or performs as the thesis requires.
+Three starter precedents are now documented. Source facts are separated from thesis Interpretations. Only the cited source material was checked; missing full-text or project documentation remains a limitation.
 
-## Candidate index categories
+## Comparison
 
-| Candidate category | Related question or claim | What to look for | Current Evidence |
+| ID | Precedent | Verified contribution | Research relevance (Interpretation) |
 | --- | --- | --- | --- |
-| Rigid reconfigurable partition | [Q3](../questions/question-tree.md#q3), [C3](../claims-and-evidence/evidence-matrix.md#c3) | Spatial operation, manual versus automated control, safety, reversibility, and architectural consequence. | None documented. |
-| Folding or articulated boundary | [Q3](../questions/question-tree.md#q3), [C3](../claims-and-evidence/evidence-matrix.md#c3) | Degrees of enclosure, passage, visibility, effort, failure, and occupant control. | None documented. |
-| Soft or textile boundary | [Q3](../questions/question-tree.md#q3), [C3](../claims-and-evidence/evidence-matrix.md#c3) | Gradated action, deformation, opacity, tension, entanglement risk, and manual override. | None documented. |
-| Responsive or kinetic environment | [Q0](../questions/question-tree.md#q0), [Q4](../questions/question-tree.md#q4); [C4](../claims-and-evidence/evidence-matrix.md#c4) | Observation–action loop, explanation, consent, refusal, recovery, and multi-occupant conflict. | None documented. |
-| Fixed or manually adjusted comparison | [Q1](../questions/question-tree.md#q1), [Q5](../questions/question-tree.md#q5); [C1](../claims-and-evidence/evidence-matrix.md#c1), [C5](../claims-and-evidence/evidence-matrix.md#c5) | Whether autonomy adds architectural value beyond fixed or direct manual control. | None documented. |
+| PRE-001 | The Adaptive Architectural Layout | Semi-autonomous mobile partition; predefined locations; five-week real-office study with 13 workers and four shared-control strategies. | Frames when a boundary should act and how control can be shared. |
+| PRE-002 | Hylozoic Ground | 2010 publication describes an immersive interactive sculpture environment organized as a textile matrix supporting responsive actions. | Suggests lightweight, distributed material response without proving spatial negotiation. |
+| PRE-003 | The Muscle Projects | Bibliographic identity verified through DOI metadata; detailed project claims still require full-text checking. | Candidate precedent for movement-to-structural transformation. |
 
-## Precedent record template
+## PRE-001 — The Adaptive Architectural Layout
 
-### `[PRE-###]` — `[verified project name]`
+- **Verification status:** Metadata and abstract verified.
+- **Project facts:** Nguyen and Vande Moere report a mobile robotic partition that moved autonomously between predetermined locations in an open-plan office. A five-week in-the-wild study involved 13 workers and identified four adaptation strategies.
+- **Source provenance:** [NGUYEN2024LAYOUT](bibliography.md#nguyen2024layout) and [NGUYEN2024TECH](bibliography.md#nguyen2024tech).
+- **Architectural operation:** Moves a full-scale partition among predefined office positions.
+- **Human agency:** The paper studies shared spatiotemporal control; detailed initiation and override mechanics require full-text extraction.
+- **Research relevance (Interpretation):** Control allocation and timing are as important as physical movement.
+- **Transfer risk:** Office use, rigid mobility, and predefined positions differ from a domestic soft boundary.
+- **Related inquiry:** [Q1](../questions/question-tree.md#q1), [Q3](../questions/question-tree.md#q3), [Q4](../questions/question-tree.md#q4), [C1](../claims-and-evidence/evidence-matrix.md#c1), [C4](../claims-and-evidence/evidence-matrix.md#c4).
 
-- **Verification status:**
-- **Project facts:** Name, place, date, author/designer, program, and physical status. Record only verified facts.
-- **Source provenance:** Full citation or linked [bibliography](bibliography.md) citekey, DOI/URL, access date, and which facts each Source supports.
-- **Architectural operation:** What spatial relations or affordances change; distinguish documented operation from Interpretation.
-- **Sensing:** Documented input or `None documented`; do not infer a sensor from an observed action.
-- **Action:** Documented movement or state change, range, timing, reversibility, and constraints.
-- **Human agency:** Documented initiation, consent, understanding, refusal, override, reversal, appropriation, and conflict handling.
-- **Evaluation:** Method, participants or simulated agents, measures, comparison condition, Results, and Limitations; use `None documented` where applicable.
-- **Research relevance (Interpretation):** What the precedent may help test in this thesis.
-- **Related question and claim:** Stable links to Q/C IDs.
-- **Transfer risk:** Context, scale, culture, access, mechanism, sensing, safety, ethics, or evaluation differences that limit transfer.
-- **Open questions:**
-- **Next verification action:**
+## PRE-002 — Hylozoic Ground
 
-## Use rules
+- **Verification status:** Publisher/studio project-publication page checked.
+- **Project facts:** The 2010 book page describes Hylozoic Ground as an immersive interactive sculpture environment and a suspended geotextile/textile matrix supporting responsive actions and material exchanges.
+- **Source provenance:** [BEESLEY2010](bibliography.md#beesley2010).
+- **Architectural operation:** Responsive actions are distributed through a lightweight textile matrix; specific sensing and actuation claims need additional primary documentation.
+- **Human agency:** Not established by the checked publication page.
+- **Research relevance (Interpretation):** Small local actions may communicate environmental responsiveness without moving a heavy wall.
+- **Transfer risk:** Installation experience does not itself demonstrate circulation control, learning, or occupant benefit.
+- **Related inquiry:** [Q3](../questions/question-tree.md#q3), [C3](../claims-and-evidence/evidence-matrix.md#c3).
 
-- Separate project facts from the author’s claims and from this thesis’s Interpretation.
-- Do not treat photographs, promotional descriptions, or mechanical motion alone as Evidence of occupant benefit or agency.
-- Record missing evaluation and failures; absence of reporting is not proof that a behavior or benefit occurred.
-- Compare precedents through shared fields rather than selecting a mechanism by resemblance.
+## PRE-003 — The Muscle Projects
+
+- **Verification status:** Bibliographic metadata verified; full text not yet checked.
+- **Project facts:** Oosterhuis and Biloria published “Interactions with Proactive Architectural Spaces: The Muscle Projects” in *Communications of the ACM* 51(6), 2008.
+- **Source provenance:** [OOSTERHUIS2008](bibliography.md#oosterhuis2008).
+- **Architectural operation, sensing, action, and evaluation:** Pending full-text extraction.
+- **Research relevance (Interpretation):** Candidate comparison for real-time coupling between human input and structural response.
+- **Transfer risk:** Do not assume memory, negotiation, refusal, or participant benefit from the title or project imagery.
+- **Related inquiry:** [Q2](../questions/question-tree.md#q2), [Q3](../questions/question-tree.md#q3), [Q4](../questions/question-tree.md#q4).
+
+## Next verification actions
+
+1. Extract method, control, participant, and limitation details from PRE-001 full text.
+2. Locate primary technical documentation for Hylozoic Ground sensing and actuation.
+3. Read the Muscle Projects article before adding mechanism or behavior claims.

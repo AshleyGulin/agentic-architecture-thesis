@@ -2,34 +2,41 @@
 
 ## Working thesis
 
-This repository holds a provisional thesis framing: an adaptive architectural boundary may learn from trajectory signals—such as movement, distance, orientation, hesitation, dwell, and route choice—and co-adapt with people rather than directing them. The research asks how this human–architecture co-adaptation can preserve non-coercive agency: occupants must be able to negotiate, resist, or reinterpret the boundary’s actions. The detailed question and claim structures are tracked in [the question tree](questions/question-tree.md) and [the evidence matrix](claims-and-evidence/evidence-matrix.md).
+This repository develops a provisional thesis: an adaptive architectural boundary may learn from trajectory signals and make spatial proposals while occupants retain the ability to understand, resist, or reinterpret its actions. The current material question is whether variable-tension Power Mesh can support gradual, reversible, and physically rejectable boundary states.
 
 ## Current status
 
-The Thesis Agent and research operating system are initialized. Repository setup was completed on 2026-09-03, and the initial work is tracked through the three Issues linked under Immediate next actions. The framing remains a provisional Hypothesis, not a supported finding; no verified research evidence or completed experiment is documented yet. See [the current handoff](state/current-state.md) and [research memory](state/research-memory.md).
+The Thesis Agent research system is active. Power Mesh is the leading material candidate for characterization, not a final selection. Verified starter precedent Sources are recorded, while material and human-response claims remain untested Hypotheses. See [current state](state/current-state.md).
+
+## Start here
+
+- [Five-minute initial thesis presentation](presentations/5-minute-initial-idea.md)
+- [Power Mesh material dossier](research/materials/power-mesh.md)
+- [Question tree](questions/question-tree.md)
+- [Evidence matrix](claims-and-evidence/evidence-matrix.md)
+- [Precedents](research/precedents.md) and [bibliography](research/bibliography.md)
+- [EXP-001 material characterization](experiments/EXP-001-power-mesh-characterization.md)
+- [EXP-002 variable-tension boundary](experiments/EXP-002-variable-tension-boundary.md)
 
 ## Research operating system
 
-Work proceeds through inquiry loops: observe, frame a question, make or simulate, test, interpret, and revise. Questions, evidence gaps, design work, experiments, and decisions are maintained in their respective repository records as they are created; the agent operating rules are in [AGENTS.md](AGENTS.md).
+The Thesis Agent maintains Questions, Hypotheses, Sources, Evidence, Interpretations, Decisions, experiments, and handoff state as distinct records. Formal thesis material is in English; exploratory Chinese thinking notes are clearly labelled.
 
 ## Repository map
 
-- [state/](state/) — compact handoff and durable memory.
-- [questions/question-tree.md](questions/question-tree.md) — provisional core and dependent research questions.
-- [claims-and-evidence/evidence-matrix.md](claims-and-evidence/evidence-matrix.md) — linked Hypotheses, Evidence needed, Limitations, and next actions.
-- Research workflows: [literature map](research/literature-map.md), [bibliography](research/bibliography.md), [precedent analysis](research/precedents.md), and [reading notes](research/reading-notes/README.md).
-- Provisional design system: [scenario comparison](design-system/scenario.md), [adaptive-boundary action space](design-system/adaptive-boundary.md), [agent model](design-system/agent-model.md), and [trajectory metrics](design-system/trajectory-metrics.md).
-- Experiment workflows: [experiment index](experiments/experiment-index.md) and [experiment template](experiments/experiment-template.md).
-- Logs: [decision log](logs/decisions.md) and [optional weekly log template](logs/weekly/README.md).
-- Writing layer: [thesis framing](writing/thesis-framing.md), [research questions](writing/research-questions.md), [argument outline](writing/argument-outline.md), and [working glossary](writing/glossary.md).
-- Governance documents: [design specification](docs/superpowers/specs/2026-09-02-thesis-agent-design.md) and [implementation plan](docs/superpowers/plans/2026-09-02-thesis-agent-implementation.md).
+- `state/` — current handoff and durable memory.
+- `questions/` — core and dependent Open questions.
+- `claims-and-evidence/` — claims, required Evidence, limitations, and status.
+- `research/` — literature, bibliography, precedents, reading notes, and material dossiers.
+- `design-system/` — scenario, adaptive boundary, agent model, and trajectory metrics.
+- `experiments/` — preregistered protocols, index, and later raw Evidence.
+- `presentations/` — review and critique formats.
+- `logs/` — decisions and optional weekly notes.
+- `writing/` — thesis framing, questions, outline, and glossary.
+- `AGENTS.md` — operating contract for Codex and future agents.
 
-## Immediate next actions
+## Active queue
 
-1. [Issue #1 — Compare three candidate domestic scenarios for the adaptive boundary](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/1).
-2. [Issue #2 — Define observable indicators of spatial negotiation from trajectory data](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/2).
-3. [Issue #3 — Build the initial literature map for adaptive environments, proxemics, and human–agent negotiation](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/3).
-
-## Working language
-
-Formal thesis material and publication-ready content are written in English. Exploratory notes may be in Chinese when clearly marked as Chinese thinking notes; uncertain ideas are not silently translated into authoritative English claims.
+1. [Issue #1 — Compare three candidate domestic scenarios](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/1)
+2. [Issue #2 — Define observable trajectory indicators](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/2)
+3. [Issue #3 — Build the initial literature map](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/3)
