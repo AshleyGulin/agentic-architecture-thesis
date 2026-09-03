@@ -2,15 +2,19 @@
 
 ## One-sentence position
 
-**Hypothesis:** A variable-tension textile boundary may translate trajectory patterns into gradual spatial proposals while preserving occupants’ ability to understand, resist, and physically reshape those proposals.
+**Hypothesis:** A learning architectural boundary may model the relationship between its own spatial configurations and subsequent human trajectories, then make cautious, negotiable adaptations without treating inferred intent as authority.
 
 ## Active inquiry
 
-How can an adaptive architectural boundary learn from spatial behavior and alter affordances without coercing occupants? Power Mesh is the leading material candidate for characterization, not a final material Decision.
+How can an embodied spatial agent learn from repeated movement and changing relations of proximity and territory, while occupants retain the ability to understand, resist, and physically reshape its actions? The compact urban dwelling and Power Mesh are leading candidates, not final Decisions.
+
+## Current project overview
+
+The public-facing explanation of what the thesis proposes to investigate is maintained in the [Thesis Project Overview](../presentations/5-minute-initial-idea.md). It is a conceptual overview, not a presentation-structure guide.
 
 ## Current sources and evidence
 
-Verified starter Sources now include the Nguyen/Vande Moere adaptive-layout paper and technical preprint, the Hylozoic Ground project publication, and bibliographic records for Beesley/Armstrong and Oosterhuis/Biloria. These sources provide precedent context. **No Power Mesh experiment Evidence or human-study Results exist yet.**
+Verified starter Sources include the Nguyen/Vande Moere adaptive-layout paper and technical preprint, the Hylozoic Ground project publication, and bibliographic records for Beesley/Armstrong and Oosterhuis/Biloria. These provide precedent context. **No Power Mesh experiment Evidence or human-study Results exist yet.**
 
 ## Planned experiments
 
@@ -23,22 +27,20 @@ Verified starter Sources now include the Nguyen/Vande Moere adaptive-layout pape
 2. [Issue #2 — Define trajectory indicators](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/2)
 3. [Issue #3 — Build the initial literature map](https://github.com/AshleyGulin/agentic-architecture-thesis/issues/3)
 
-The queue remains capped at three; material experiments are documented but not added as extra active Issues.
-
 ## Decisions needed
 
-Select the domestic scenario, trajectory-metric shortlist, and whether EXP-001 results justify adopting Power Mesh beyond candidate status.
+Select the domestic scenario and trajectory-metric shortlist; determine whether EXP-001 justifies adopting Power Mesh; define what memory and comparison conditions are necessary to distinguish learning from reactivity.
 
 ## Largest evidence gap
 
-There is no controlled evidence that the selected Power Mesh product produces repeatable, legible spatial states or that those states affect movement while preserving meaningful refusal.
+There is no controlled evidence that the selected Power Mesh produces repeatable, legible spatial states, nor that a learning boundary contributes something measurably different from static or rule-based reactive conditions.
 
 ## Next three actions
 
-1. Present the [five-minute initial thesis deck structure](../presentations/5-minute-initial-idea.md) and collect the teacher’s critique of the problem, gap, and proposed test.
-2. Complete Issue #1 and choose a provisional scenario for EXP-002.
-3. Prepare and run EXP-001 under a documented material protocol before purchasing actuators.
+1. Complete Issue #1 and select a bounded spatial conflict for the prototype.
+2. Prepare and run EXP-001 before purchasing actuators.
+3. Complete Issue #3 and test the provisional research gap against verified literature.
 
 ## Last updated
 
-2026-09-03 — Power Mesh research integrated as a leading candidate; EXP-001 and EXP-002 planned.
+2026-09-03 — The former five-minute presentation guide was rewritten as a concise thesis project overview.

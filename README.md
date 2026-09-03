@@ -10,7 +10,7 @@ The Thesis Agent research system is active. Power Mesh is the leading material c
 
 ## Start here
 
-- [Five-minute initial thesis presentation](presentations/5-minute-initial-idea.md)
+- [Thesis project overview](presentations/5-minute-initial-idea.md) — concise account of what the thesis proposes to investigate.
 - [Power Mesh material dossier](research/materials/power-mesh.md)
 - [Question tree](questions/question-tree.md)
 - [Evidence matrix](claims-and-evidence/evidence-matrix.md)
@@ -30,7 +30,7 @@ The Thesis Agent maintains Questions, Hypotheses, Sources, Evidence, Interpretat
 - `research/` — literature, bibliography, precedents, reading notes, and material dossiers.
 - `design-system/` — scenario, adaptive boundary, agent model, and trajectory metrics.
 - `experiments/` — preregistered protocols, index, and later raw Evidence.
-- `presentations/` — review and critique formats.
+- `presentations/` — concise project overviews and review material.
 - `logs/` — decisions and optional weekly notes.
 - `writing/` — thesis framing, questions, outline, and glossary.
 - `AGENTS.md` — operating contract for Codex and future agents.
