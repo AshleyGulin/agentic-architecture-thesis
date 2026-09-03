@@ -14,6 +14,10 @@ The filename is retained so existing links remain stable, but this is **not a pr
 
 > **Can an architectural boundary learn how people move, while allowing people to negotiate what the architecture learns to do?**
 
+![Concept visualization of a variable-tension architectural boundary acting as an embodied spatial agent](../assets/generated/agentic-boundary-concept.jpg)
+
+*AI-generated concept visualization / AI 生成概念图。It illustrates the proposition of the boundary as an embodied agent; it is not a photograph of a completed prototype or experiment.*
+
 ### 中文思考笔记
 
 这里的重点不是“会动的墙”，也不是“AI 猜测人的情绪”。核心是建筑能否记住自己改变空间后，对人的移动与关系产生了什么影响，并据此逐渐调整，同时让人保持拒绝和改变它的能力。

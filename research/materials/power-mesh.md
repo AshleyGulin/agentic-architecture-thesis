@@ -21,6 +21,10 @@ Power Mesh 不是 thesis 的答案，而是目前最值得验证的材料候选�
 
 ## Why Power Mesh?
 
+![Generated material study showing relaxed, stretched, layered, and point-pulled Power Mesh states](../../assets/generated/power-mesh-material-states.jpg)
+
+*AI-generated material-state visualization / AI 生成材料状态示意图。The four states are design hypotheses for future testing, not photographs or Evidence from EXP-001.*
+
 Power Mesh is commonly described as an elastic mesh textile made with a synthetic fibre and elastane. The exact fibre composition, stretch direction, recovery, aperture, and strength vary by product and must be recorded for the purchased sample.
 
 | Candidate material property | Architectural potential to test |
