@@ -22,7 +22,7 @@ Work proceeds through inquiry loops: observe, frame a question, make or simulate
 - Experiment workflows: [experiment index](experiments/experiment-index.md) and [experiment template](experiments/experiment-template.md).
 - Logs: [decision log](logs/decisions.md) and [optional weekly log template](logs/weekly/README.md).
 - Writing layer: [thesis framing](writing/thesis-framing.md), [research questions](writing/research-questions.md), [argument outline](writing/argument-outline.md), and [working glossary](writing/glossary.md).
-- [docs/superpowers/specs/](docs/superpowers/specs/) — design specification and implementation plan.
+- Governance documents: [design specification](docs/superpowers/specs/2026-09-02-thesis-agent-design.md) and [implementation plan](docs/superpowers/plans/2026-09-02-thesis-agent-implementation.md).
 
 ## Immediate next actions
 

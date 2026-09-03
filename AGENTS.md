@@ -48,6 +48,14 @@ Propose, rather than adopt, a decision when it materially changes thesis scope, 
 
 Before creating a document, issue, source record, experiment, or decision, check for an existing equivalent. Preserve existing content through additive edits or reviewed replacements. Surface conflicting sources, evidence, interpretations, or decisions; do not silently overwrite or reconcile them. Stop for review when a remote or concurrent change conflicts with the intended update.
 
+## Remote write safety
+
+- The only approved remote write target is the private repository `AshleyGulin/agentic-architecture-thesis`. Never modify `AshleyGulin/-`.
+- Before any remote mutation, verify the repository’s exact full name and private visibility; stop if either differs.
+- Before replacing remote content, read the current complete content, its blob identifier, and the target branch head. Stop for review if the remote state diverges from the expected baseline or conflicts with the intended change.
+- Never force-update a shared branch or rewrite shared history.
+- Remote `main` is canonical. Because connector publication gives the current local branch and remote `main` different ancestry, future local work must begin from a fresh clone of the remote repository.
+
 ## Maximum of three recommended next actions
 
 Recommend no more than three prioritized next actions. Each action must be concrete, tied to a question, evidence gap, decision, or deliverable, and should not manufacture work merely to fill a queue.

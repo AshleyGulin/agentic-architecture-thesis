@@ -28,7 +28,7 @@ Student judgment is needed on the domestic scenario selection, the observable tr
 
 ## Blockers
 
-The current blockers are the absent verified evidence base and unresolved scenario and metric selection. Technical repository setup is complete and is not a blocker.
+There is no operational blocker: Issues #1–#3 can proceed. The absent verified evidence base and unresolved scenario and metric selections are active evidence and decision gaps, not blockers. Technical repository setup is complete.
 
 ## Next three actions
 

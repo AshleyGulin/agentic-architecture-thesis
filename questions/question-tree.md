@@ -29,7 +29,7 @@ Q0 Core question
 
 **Why must the boundary adapt?**
 
-- **Status:** Open question; linked to [C1](../claims-and-evidence/evidence-matrix.md).
+- **Status:** Open question; linked to [C1](../claims-and-evidence/evidence-matrix.md#c1).
 - **Why it matters:** The thesis needs an architectural reason for adaptation, not merely a reason to build a moving mechanism.
 - **Current hypothesis:** **Hypothesis:** some compact domestic situations may involve changing privacy, access, attention, or togetherness relations that a fixed configuration cannot accommodate equally well over time.
 - **Evidence needed:** Traceable literature or precedents and documented scenario observations showing which relations change, when a fixed boundary is insufficient, and for whom.
@@ -46,7 +46,7 @@ Dependent Open questions:
 
 **What can the agent perceive?**
 
-- **Status:** Open question; linked to [C2](../claims-and-evidence/evidence-matrix.md).
+- **Status:** Open question; linked to [C2](../claims-and-evidence/evidence-matrix.md#c2).
 - **Why it matters:** The observation model determines what the boundary can respond to and what privacy, ambiguity, and misclassification risks it introduces.
 - **Current hypothesis:** **Hypothesis:** trajectory may be more informative when treated as a temporal pattern of movement, distance, orientation, hesitation, dwell, and route choice rather than as position alone.
 - **Evidence needed:** Traceable definitions, ethically documented observations or simulations, comparison of candidate metrics, and records of ambiguous or misleading cases.
@@ -63,7 +63,7 @@ Dependent Open questions:
 
 **What can the boundary change?**
 
-- **Status:** Open question; linked to [C3](../claims-and-evidence/evidence-matrix.md).
+- **Status:** Open question; linked to [C3](../claims-and-evidence/evidence-matrix.md#c3).
 - **Why it matters:** Architectural effects depend on how the intervention changes passage, visibility, proximity, enclosure, and possible use, not only on how it moves.
 - **Current hypothesis:** **Hypothesis:** a soft or continuously adjustable boundary may offer gradated and reversible interventions, but a curtain is only one candidate materialization.
 - **Evidence needed:** Comparative design studies documenting candidate boundary types, their spatial affordances, reversibility, failure modes, and effects on different occupants.
@@ -80,7 +80,7 @@ Dependent Open questions:
 
 **How do occupants negotiate with the boundary?**
 
-- **Status:** Open question; linked to [C4](../claims-and-evidence/evidence-matrix.md).
+- **Status:** Open question; linked to [C4](../claims-and-evidence/evidence-matrix.md#c4).
 - **Why it matters:** Adaptation can become over-control if the system hides its inference, blocks refusal, or repeatedly privileges one inferred preference.
 - **Current hypothesis:** **Hypothesis:** agency may be better preserved when occupants can anticipate, interrupt, reverse, redirect, or reinterpret a boundary action and when the system treats those responses as feedback rather than error.
 - **Evidence needed:** Documented interaction protocols and observations of acceptance, resistance, correction, appropriation, conflict, and recovery, including the provenance and limits of any interpretation.
@@ -97,7 +97,7 @@ Dependent Open questions:
 
 **How is architectural value evaluated?**
 
-- **Status:** Open question; linked to [C5](../claims-and-evidence/evidence-matrix.md).
+- **Status:** Open question; linked to [C5](../claims-and-evidence/evidence-matrix.md#c5).
 - **Why it matters:** The contribution must be assessed through spatial and experiential consequences, not technical movement alone.
 - **Current hypothesis:** **Hypothesis:** an architectural contribution may be demonstrated through changes in usable relations, perceived choice, legibility, and capacity for appropriation across time, provided those qualities are evaluated rather than assumed.
 - **Evidence needed:** Explicit architectural criteria, documented comparisons with fixed and manually adjusted alternatives, occupant-centered measures, and accounts of tradeoffs and failures.

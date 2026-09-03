@@ -24,13 +24,13 @@ This file retains durable information across sessions. Entries are provisional u
 
 | ID | Decision | Rationale and basis | Status |
 | --- | --- | --- | --- |
-| D-001 | Use English for formal thesis material; permit clearly marked Chinese thinking notes for exploration. | Working-language rule in [the design specification](../docs/superpowers/specs/2026-09-02-thesis-agent-design.md). | Current repository convention |
-| D-002 | Treat adaptive boundary, trajectory signals, co-adaptation, and non-coercive agency as provisional framing rather than established findings. | Initial thesis framing in [the design specification](../docs/superpowers/specs/2026-09-02-thesis-agent-design.md). | Current framing; revisable with student approval for major changes |
+| [D-LOG-002](../logs/decisions.md) | Use English for formal thesis material; permit clearly marked Chinese thinking notes for exploration. | Canonical entry in the [decision log](../logs/decisions.md); working-language rule in [the design specification](../docs/superpowers/specs/2026-09-02-thesis-agent-design.md). | Current repository convention |
+| [D-LOG-003](../logs/decisions.md) | Organize progress through question-and-evidence inquiry loops and high-level stage gates rather than a detailed annual calendar. | Canonical entry in the [decision log](../logs/decisions.md). | Current repository convention |
 
 ## Open questions
 
 | ID | Open question | Why it matters | Status |
 | --- | --- | --- | --- |
-| OQ-001 | What spatial behavior should count as a trajectory signal, and how can it be observed responsibly? | It determines what the agent could perceive and raises method and privacy questions. | Open |
-| OQ-002 | What boundary actions preserve agency rather than over-control occupants? | It tests the proposed architectural and ethical contribution. | Open |
-| OQ-003 | What evidence would demonstrate co-adaptation rather than a merely reactive mechanism? | It defines the required evaluation standard. | Open |
+| [Q2](../questions/question-tree.md#q2) | What spatial behavior should count as a trajectory signal, and how can it be observed responsibly? | It determines what the agent could perceive and raises method and privacy questions. | Open |
+| [Q4](../questions/question-tree.md#q4) | What boundary actions and interaction protocols preserve agency rather than over-control occupants? | It tests the proposed architectural and ethical contribution. | Open |
+| [Q5](../questions/question-tree.md#q5) | What evidence would demonstrate co-adaptation rather than a merely reactive mechanism? | It defines the required evaluation standard. | Open |
